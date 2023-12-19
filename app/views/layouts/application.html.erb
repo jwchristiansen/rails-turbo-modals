@@ -12,9 +12,6 @@
 
   <body class="container mx-auto mt-8 max-w-xl">
     <%= yield %>
-    <%# render "shared/modals/empty" %>
-    <%= render layout: "shared/modals/modal" do %>
-      <div>Placeholder modal</div>
-    <% end %>
+    <%= render "shared/modals/empty" %>
   </body>
 </html>
